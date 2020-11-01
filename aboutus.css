@@ -1,0 +1,54 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+#vision{
+    width: 100vw;
+    height: 20vw;
+    color: white;
+    font-size: larger;
+    background-image: linear-gradient(to right, rgba(0,0,0,0.4),rgba(0,0,0,0.6)),url("./Sources/banner-1-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#motto{
+    display: flex;
+    text-align: center;
+    margin: 20px;
+}
+
+.img{
+    height: 40vh;
+    width: 30vw;
+    border-radius: 10px;
+}
+
+.text{
+    margin-left: 130px;
+    margin-top: 40px;
+}
+
+.people{
+    display: flex;
+    text-align: center;
+    margin: 20px;
+    justify-content: space-between;
+}
+
+.cards{
+    height: 40vh;
+    width: 20vw;
+    border-radius: 10px; 
+}
+
+h1{
+    text-align: center;
+}
